@@ -4,10 +4,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Services from './components/Services/Services';
+import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import ServicesPart from './components/ServicesPart/ServicesPart';
+import PartOfCourse from './components/PartOfCourse/PartOfCourse';
 
 function App() {
   return (
@@ -16,10 +16,10 @@ function App() {
             <Header></Header>
         <Switch>
           <Route path="/home">
-            <ServicesPart></ServicesPart>
+           <PartOfCourse></PartOfCourse>
           </Route>
-          <Route path="/services">
-            <Services></Services>
+          <Route path="/courses">
+            <Courses></Courses>
           </Route>
           <Route path="/about">
               <About></About>
@@ -28,7 +28,7 @@ function App() {
               <Contact></Contact>
           </Route>
           <Route exact path="/">
-            <ServicesPart></ServicesPart>
+           <PartOfCourse></PartOfCourse>
           </Route>
           <Route path="*">
             <h1>404 , Page Not Found</h1>
