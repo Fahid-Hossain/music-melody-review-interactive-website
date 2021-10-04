@@ -7,7 +7,6 @@ import Footer from './components/Footer/Footer';
 import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
-import PartOfCourse from './components/PartOfCourse/PartOfCourse';
 import Home from './components/Home/Home';
 
 function App() {
