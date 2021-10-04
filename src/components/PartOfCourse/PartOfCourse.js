@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { Row } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import SingleCourse from '../SingleCourse/SingleCourse';
 import "./PartOfCourse.css"
 
@@ -25,7 +26,9 @@ const PartOfCourse = () => {
                     courses.slice(0,4).map(course => <SingleCourse course={course} key={course.key}></SingleCourse>)
                 }
             </Row >
+            <Link to="/courses">
             <button className="btn btn-outline-success px-5 mt-2 mb-4">View All</button>
+            </Link>
         </div>
     );
 };
