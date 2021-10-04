@@ -8,6 +8,7 @@ import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
            <Home></Home>
           </Route>
           <Route path="*">
-            <h1>404 , Page Not Found</h1>
+            <NotFound></NotFound>
           </Route>
 
         </Switch>
