@@ -30,10 +30,10 @@ const Courses = () => {
                                 <Card.Text>
                                     {course.courseInfo}
                                 </Card.Text>
-                                <h5>Duration: {course.courseDuration}</h5>
-                                <h5>CourseFee: {course.courseFee}</h5>
+                                <h6><i className="far fa-calendar-alt"></i>  {course.courseDuration}</h6>
+                                <h6><i className="fas fa-money-check-alt"></i> {course.courseFee}</h6>
                             </Card.Body>
-                            <button className="btn btn-secondary w-50 mx-auto">Admit Now</button>
+                            <button className="btn-style px-4 mx-auto">Enroll Now</button>
                         </Card>
                     </Col>)
                 }

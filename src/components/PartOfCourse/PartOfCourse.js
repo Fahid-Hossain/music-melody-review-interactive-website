@@ -27,7 +27,7 @@ const PartOfCourse = () => {
                 }
             </Row >
             <Link to="/courses">
-            <button className="btn btn-outline-success px-5 mt-2 mb-4">View All</button>
+            <button className="btn btn-outline-danger fw-bold px-5 mt-2 mb-4">View All</button>
             </Link>
         </div>
     );

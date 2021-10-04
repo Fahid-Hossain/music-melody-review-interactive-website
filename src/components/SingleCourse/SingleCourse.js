@@ -16,10 +16,10 @@ const SingleCourse = (props) => {
                                 <Card.Text>
                                    {courseInfo}
                                 </Card.Text>
-                                <h5>Duration: {courseDuration}</h5>
-                                <h5>CourseFee: {courseFee}</h5>
+                                <h6><i className="far fa-calendar-alt"></i>  {courseDuration}</h6>
+                                <h6><i className="fas fa-money-check-alt"></i> {courseFee}</h6>
                             </Card.Body>
-                            <button className="btn btn-secondary w-50 mx-auto">Admit Now</button>
+                            <button className="btn-style w-50 mx-auto">Enroll Now</button>
                         </Card>
                     </Col>
            
