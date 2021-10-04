@@ -17,6 +17,7 @@ function App() {
         <Switch>
           <Route path="/home">
            <PartOfCourse></PartOfCourse>
+           <About></About>
           </Route>
           <Route path="/courses">
             <Courses></Courses>
