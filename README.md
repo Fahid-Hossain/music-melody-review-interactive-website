@@ -1,8 +1,11 @@
-# Getting Started with Create React App
+# Music-and-melody-school
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Site live-link:(https://music-and-melody-school.netlify.app/).
 
-## Available Scripts
+## What we Provide with this site
+* Different type of Instument playing instruction 
+* Creative music and melody create idea with professional player over the world
+* You can Mastering your skill with proffesional level player.
 
 In the project directory, you can run:
 
