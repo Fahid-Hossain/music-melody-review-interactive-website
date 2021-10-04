@@ -19,6 +19,11 @@ const PartOfCourse = () => {
         <div>
             <div className="courseBg">
                 <h1 className="courseHeading"><i>Find Your Best Music Teacher . Stay with Melody .</i></h1>
+             <Link to="/contact">
+             <button className="btn btn-outline-secondary px-5 fw-bold">
+                   Sign In
+                </button>
+             </Link>
             </div>
                 <h1 className="mt-3 fw-bold text-secondary ">Part Of Courses</h1>
             <Row xs={1} md={4} className="g-4 m-3 p-0">

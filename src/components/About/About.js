@@ -3,10 +3,10 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div className="card mb-0 about-page pt-5">
-            <div className="row g-0 ">
+        <div className="card mb-0 about-page py-5 mb-5">
+            <div className="row ">
                 <div className="col-md-3">
-                    <img src="https://cdn.pixabay.com/photo/2014/09/03/22/11/professor-435106_1280.jpg" className="img-fluid rounded-start about-img" alt="..."/>
+                    <img className="img-fluid" src="https://cdn.pixabay.com/photo/2014/09/03/22/11/professor-435106_1280.jpg" className="img-fluid rounded-start about-img" alt="..."/>
                 </div>
                 <div className="col-md-9">
                     <div className="card-body about-info text-white fs-5">

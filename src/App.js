@@ -8,6 +8,7 @@ import Courses from './components/Courses/Courses';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import PartOfCourse from './components/PartOfCourse/PartOfCourse';
+import Home from './components/Home/Home';
 
 function App() {
   return (
@@ -16,9 +17,7 @@ function App() {
             <Header></Header>
         <Switch>
           <Route path="/home">
-           <PartOfCourse></PartOfCourse>
-           <About></About>
-           <Contact></Contact>
+          <Home></Home>
           </Route>
           <Route path="/courses">
             <Courses></Courses>
@@ -30,7 +29,7 @@ function App() {
               <Contact></Contact>
           </Route>
           <Route exact path="/">
-           <PartOfCourse></PartOfCourse>
+           <Home></Home>
           </Route>
           <Route path="*">
             <h1>404 , Page Not Found</h1>
