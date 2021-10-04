@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Switch,Route } from 'react-router-dom';
@@ -18,6 +18,7 @@ function App() {
           <Route path="/home">
            <PartOfCourse></PartOfCourse>
            <About></About>
+           <Contact></Contact>
           </Route>
           <Route path="/courses">
             <Courses></Courses>

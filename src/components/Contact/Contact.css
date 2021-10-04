@@ -1,0 +1,9 @@
+.ul-list{
+    list-style: none;
+    text-align: left;
+}
+.contact-us{
+    /* background-color: rgb(88, 93, 102); */
+    background: url("https://cdn.pixabay.com/photo/2015/12/03/22/15/tablet-1075790_1280.jpg");
+    width: 100%;
+}
