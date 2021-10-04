@@ -4,6 +4,12 @@ import { NavLink } from 'react-router-dom';
 import "./Header.css"
 
 const Header = () => {
+    const activeStyle={
+        fontWeight: "bold",
+        color: "tomato",
+        backgroundColor:"wheat",
+        borderRadius:"5px"
+      }
     return (
 
      
@@ -13,10 +19,10 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                    <NavLink className="text-decoration-none px-2 navLink" to="/home">Home</NavLink>
-                     <NavLink className="text-decoration-none px-2 navLink" to="/about">About</NavLink>
-                     <NavLink className="text-decoration-none px-2 navLink" to="/courses">Courses</NavLink>
-                     <NavLink className="text-decoration-none px-2 navLink" to="/contact">Contact us</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/home">Home</NavLink>
+                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/about">About</NavLink>
+                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/courses">Courses</NavLink>
+                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/contact">Contact us</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
