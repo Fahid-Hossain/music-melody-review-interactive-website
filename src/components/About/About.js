@@ -3,12 +3,12 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div className="card mb-0 about-page py-5 mb-5">
-            <div className="row ">
-                <div className="col-md-3">
-                    <img className="img-fluid" src="https://cdn.pixabay.com/photo/2014/09/03/22/11/professor-435106_1280.jpg" className="img-fluid rounded-start about-img" alt="..."/>
+        <div className="card mb-0 about-page my-5">
+            <div className="row row-cols-1 row-cols-md-2">
+                <div className="col">
+                    <img src="https://cdn.pixabay.com/photo/2014/09/03/22/11/professor-435106_1280.jpg" className="img-fluid rounded-start about-img" alt="..."/>
                 </div>
-                <div className="col-md-9">
+                <div className="col">
                     <div className="card-body about-info text-white fs-5">
                         <h2 className="card-title text-warning fw-bold">Our Classes</h2>
                         <h1 className="text-white fw-bold">About School</h1>

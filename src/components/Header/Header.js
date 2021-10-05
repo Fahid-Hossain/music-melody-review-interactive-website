@@ -19,10 +19,10 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                    <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/home">Home</NavLink>
-                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/about">About</NavLink>
-                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/courses">Courses</NavLink>
-                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-2 navLink" to="/contact">Contact us</NavLink>
+                    <NavLink activeStyle={activeStyle} className="text-decoration-none px-4 py-2  mx-1 navLink" to="/home">Home</NavLink>
+                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-4 py-2 mx-1 navLink" to="/about">About</NavLink>
+                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-4 py-2 mx-1 navLink" to="/courses">Courses</NavLink>
+                     <NavLink activeStyle={activeStyle} className="text-decoration-none px-4 py-2 mx-1 navLink" to="/contact">Contact us</NavLink>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

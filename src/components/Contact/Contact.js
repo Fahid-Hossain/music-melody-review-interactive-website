@@ -5,7 +5,7 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <div className="row contact-us pt-4">
+        <div className="row contact-us pt-4 my-3">
             <h1 className="text-white fw-bold">Contact Us</h1>
             <div className="col-md-6">
                 <h2 className="text-warning fw-bold">Sign In to Enroll</h2>
@@ -68,21 +68,21 @@ const Contact = () => {
                     <div className="col-md-5">
                         <ul className="ul-list">
                             <li>
-                                <h5> <i className="fas fa-map-marker-alt"></i> Adress:</h5>
+                                <h5 className="fw-bold"> <i className="fas fa-map-marker-alt"></i> Adress:</h5>
                                 <p>Link Road 5/A , Dhaka</p>
                             </li>
                             <li>
-                                <h5> <i className="fas fa-phone"></i> Phone:</h5>
+                                <h5 className="fw-bold"> <i className="fas fa-phone"></i> Phone:</h5>
                                 <p>555-00-778</p>
                             </li>
                             <li>
-                                <h5> <i className="fas fa-envelope-square"></i> Email:</h5>
+                                <h5 className="fw-bold"> <i className="fas fa-envelope-square"></i> Email:</h5>
                                 <p className="text-primary fw-bold">music&melody@gmail.com</p>
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-5 mt-3">
-                        <Form className="border border-white p-3 rounded">
+                    <div className="col-md-6 mt-3">
+                        <Form className="border border-white p-2 rounded">
                             <fieldset>
                                 <Form.Group className="mb-3 mt-4">
                                     <h5 className="fw-bold">Sent Your Message</h5>

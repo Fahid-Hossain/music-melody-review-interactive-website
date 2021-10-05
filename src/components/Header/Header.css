@@ -1,8 +1,12 @@
 .navLink{
     color: rgb(179, 179, 173);
+    font-weight: 700;
 }
 .navLink:hover{
-    color: rgb(235, 233, 231);
+    background-color:wheat ;
+    color: rgb(247, 50, 16);
+    border-radius: 5px;
+    
 }
 h2{
     color: bisque;
