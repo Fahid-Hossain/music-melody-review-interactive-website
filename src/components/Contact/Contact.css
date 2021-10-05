@@ -10,9 +10,11 @@
     font-weight: bold;
 }
 .contact-us{
+    margin-top: 190px;
     /* background-color: rgb(88, 93, 102); */
     background: url("https://cdn.pixabay.com/photo/2015/12/03/22/15/tablet-1075790_1280.jpg")no-repeat center center/cover;
     width: 100%;
     margin: auto;
     overflow-x: hidden;
+  
 }

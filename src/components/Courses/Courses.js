@@ -17,12 +17,11 @@ const Courses = () => {
     return (
         <div>
             <h1 className="AllCoursesHeading"><i>Course Curriculum and classes.</i></h1>
-
-            <Row xs={1} md={3} className="g-4 m-4 p-3">
+            <Row xs={1} md={3} className="g-4 mx-5 px-4">
                 {
                     courses.map(course => <Col key={course.key}>
-                        <Card className="card">
-                            <Card.Img variant="top" src={course.imgUrl} style={{width:"320px",margin:"auto"}}/>
+                        <Card className="card p-2">
+                            <Card.Img variant="top" src={course.imgUrl} style={{width:"300px",margin:"auto"}}/>
                             <Card.Body>
                                 <Card.Title>
                                     <h2 className="text-dark fw-bold">{course.instrument} <span className="text-danger">Classes</span></h2>

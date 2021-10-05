@@ -1,9 +1,10 @@
 .courseBg{
   background: url("https://images.unsplash.com/photo-1445375011782-2384686778a0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80")no-repeat bottom center/cover;
-  height: 90vh;
+  height: 100vh;
 }
 .courseHeading{
-    padding-top: 58px;
+    padding-top: 150px;
     color: rgb(86, 88, 97);
+    /* color: rgba(119, 90, 10, 0.794); */
     font-weight: 700;
 }

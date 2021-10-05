@@ -3,7 +3,7 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div className="card mb-0 about-page my-5">
+        <div className="card mb-0 about-page">
             <div className="row row-cols-1 row-cols-md-2">
                 <div className="col">
                     <img src="https://cdn.pixabay.com/photo/2014/09/03/22/11/professor-435106_1280.jpg" className="img-fluid rounded-start about-img" alt="..."/>

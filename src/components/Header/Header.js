@@ -13,7 +13,7 @@ const Header = () => {
     return (
 
      
-        <Navbar bg="dark" varian="dark" expand="lg">
+        <Navbar className="fixed-top" bg="dark" varian="dark" expand="lg">
             <Container>
             <Navbar.Brand to="/home"><h2><i className="fas fa-music px-2"></i> <i>Music & Melody</i></h2></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -5,7 +5,7 @@ import "./Contact.css"
 
 const Contact = () => {
     return (
-        <div className="row contact-us pt-4 my-3">
+        <div className="row contact-us pt-4">
             <h1 className="text-white fw-bold">Contact Us</h1>
             <div className="col-md-6">
                 <h2 className="text-warning fw-bold">Sign In to Enroll</h2>
