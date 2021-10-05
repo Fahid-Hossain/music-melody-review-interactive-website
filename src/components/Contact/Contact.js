@@ -9,7 +9,7 @@ const Contact = () => {
             <h1 className="text-white fw-bold">Contact Us</h1>
             <div className="col-md-6">
                 <h2 className="text-warning fw-bold">Sign In to Enroll</h2>
-                <Form className="w-75 mx-auto border border-white p-4 my-2 rounded text-white">
+                <Form className="w-100 mx-auto border border-white p-4 my-2 rounded text-white">
                     <Row className="mb-3">
                         <Form.Group as={Col} controlId="formGridEmail">
                             <Form.Label>Email</Form.Label>
@@ -56,7 +56,7 @@ const Contact = () => {
                         <Form.Check type="checkbox" label="Check me out" />
                     </Form.Group>
 
-                    <Button variant="" className="btn btn-primary w-25" type="submit">
+                    <Button variant="" className="btn btn-primary" type="submit">
                         Submit
                     </Button>
                 </Form>
