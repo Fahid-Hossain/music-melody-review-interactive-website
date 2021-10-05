@@ -1,7 +1,8 @@
 .error{
-    height: 75vh;
+    height: 91vh;
 }
-h1{
+.error-heading{
     color: rgba(173, 11, 11, 0.911);
     margin: 25px;
+    padding-top: 70px;
 }
