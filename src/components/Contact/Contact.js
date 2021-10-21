@@ -1,9 +1,13 @@
 import Button from '@restart/ui/esm/Button';
 import React from 'react';
+import { useEffect } from 'react';
 import { Col, Form, Row } from 'react-bootstrap';
 import "./Contact.css"
 
 const Contact = () => {
+    useEffect(()=>{
+        document.title = "Contact us"
+    },[])
     return (
         <div className="row contact-us pt-4">
             <h1 className="text-white fw-bold">Contact Us</h1>

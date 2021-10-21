@@ -5,6 +5,10 @@ import { Card, Col, Row } from 'react-bootstrap';
 import "./Courses.css"
 
 const Courses = () => {
+    //title set
+    useEffect(()=>{
+        document.title = "Courses"
+    },[])
     //useState for courses
     const [courses, setCourses] = useState([]);
     //useEffect for courses data load

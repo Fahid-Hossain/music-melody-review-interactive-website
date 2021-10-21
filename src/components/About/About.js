@@ -1,8 +1,13 @@
 import React from 'react';
+import { useEffect } from 'react';
 import { Carousel } from 'react-bootstrap';
 import "./About.css"
 
 const About = () => {
+    //title set
+    useEffect(()=>{
+        document.title = "About us"
+    },[])
     return (
         <div className="about-full-page">
             {/* // carousol add start */}
